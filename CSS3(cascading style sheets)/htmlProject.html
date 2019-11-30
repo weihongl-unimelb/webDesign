@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML project</title>
+    <link rel="stylesheet" type="text/css" href="test1.css">
+    <style type="text/css">
+    	h1{
+    		color: #0000FF;
+    		font-family: Arial;
+    		font-variant: small-caps;
+    		font-size: 35px;
+    		background-color: rgba(255, 99, 71, 0.3);
+    		text-align: center;
+    		line-height: 200%;
+    	}
+    </style>
+</head>
+<body>
+
+	<header id="myName">
+		<h1>Weihong Liu</h1
+		<nav>
+			<a href="#myName">One</a>
+			<a href="#myFoods">Two</a>
+			<a href="#myAchievements">Three</a>
+			<a href="#aboutMe">Leon</a>
+		</nav>
+	</header>
+
+	<div>
+		So one of the things you may have noticed as you've been going through other code is that sometimes when you mess with the height and the width of an element. You find out that it no longer is big enough to hold all the text that you wanted to show. So, what can you do when the content doesn't fit any longer inside the box that you've made with your height and width. Well, you can use a property overflow to determine how people are going to be able to access that content, or if they're even going to be able to access it at all.
+	</div>
+
+	<div>
+		The four values for overflow, include visible, which basically means if you've drawn a box. And there's a whole bunch of text inside of it, the text is actually gonna go outside the box. So no matter what, the content is visible even if it goes outside the lines. Hidden does pretty much the opposite. It says, [SOUND] if you have something inside this box and it's too big, it's gone. You can't see it. Now this isn't a great idea, because it's going to cause problems if the user increases the font size on their browser.
+	</div>
+
+	<div>
+		Because what I wanted to share with you is this idea of other display values.
+	</div>
+
+	<section id="myFoods">
+		<h2 style="color: rgba(255, 99, 71, 0.5);">Favourite Food</h2>
+		<ul>
+			<li>watermelon</li>
+			<li>durian</li>
+			<li>cherry</li>
+			<li>buleberry</li>
+		</ul>
+	</section>
+
+	<section id="myAchievements">
+		<h2>Achievements</h2>
+		<p>Progress in this course(100%)<progress value="100" max="100"></progress></p>
+		<p>Progress in Specialization Capstone(20%)<progress value="20" max="100"></progress></p>
+		<p>Progress in life goal(10%)<progress value="10" max="100"></progress></p>
+	</section>
+
+	<section id="aboutMe">
+		<details>
+			<summary>My Childhood</summary>
+			<p>I grew up in China, Sichuan province. Love hot pot from very young ;)</p>
+		</details>
+		<br>
+	</section>
+
+	<footer>
+		<p>
+			<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="web design for everyone" width="30%">This page was created by Weihong Liu & Colleen van Lent. To learn more about web design, visit<a href="http://www.intro-webdesign.com">Intro to Web Design</a>
+		</p>
+	</footer>
+
+
+
+
+
+    
+</body>
+</html>
